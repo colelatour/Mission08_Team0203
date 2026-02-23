@@ -1,0 +1,10 @@
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.csproj.AssemblyReference.cache
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.AssemblyInfoInputs.cache
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.AssemblyInfo.cs
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.csproj.CoreCompileInputs.cache
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.RazorAssemblyInfo.cache
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.RazorAssemblyInfo.cs
+C:\Users\rocky\source\repos\Mission08_Team0203\Mission08_Team0203\obj\Debug\net10.0\Mission08_Team0203.sourcelink.json
