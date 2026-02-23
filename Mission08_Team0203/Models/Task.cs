@@ -2,10 +2,10 @@
 
 namespace Mission08_Team0203.Models
 {
-    public class Tasks
+    public class Task
     {
         [Required]
-        public string Task { get; set; }
+        public string Title { get; set; }
 
         public DateTime DueDate { get; set; }
 
