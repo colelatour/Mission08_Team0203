@@ -4,6 +4,10 @@ namespace Mission08_Team0203.Models
 {
     public class Task
     {
+        [Key]
+        [Required]
+        public int Id { get; set; }
+
         [Required]
         public string Title { get; set; }
 
