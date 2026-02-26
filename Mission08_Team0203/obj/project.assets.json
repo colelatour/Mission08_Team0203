@@ -2432,19 +2432,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/colelatour/.nuget/packages/": {}
+    "/Users/owenkeeler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/colelatour/RiderProjects/Mission08_Team0203/Mission08_Team0203/Mission08_Team0203.csproj",
+      "projectUniqueName": "/Users/owenkeeler/RiderProjects/Mission08_Team0203/Mission08_Team0203/Mission08_Team0203.csproj",
       "projectName": "Mission08_Team0203",
-      "projectPath": "/Users/colelatour/RiderProjects/Mission08_Team0203/Mission08_Team0203/Mission08_Team0203.csproj",
-      "packagesPath": "/Users/colelatour/.nuget/packages/",
-      "outputPath": "/Users/colelatour/RiderProjects/Mission08_Team0203/Mission08_Team0203/obj/",
+      "projectPath": "/Users/owenkeeler/RiderProjects/Mission08_Team0203/Mission08_Team0203/Mission08_Team0203.csproj",
+      "packagesPath": "/Users/owenkeeler/.nuget/packages/",
+      "outputPath": "/Users/owenkeeler/RiderProjects/Mission08_Team0203/Mission08_Team0203/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/colelatour/.nuget/NuGet/NuGet.Config"
+        "/Users/owenkeeler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2514,7 +2514,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
