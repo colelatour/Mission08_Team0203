@@ -1,9 +1,9 @@
-@model IEnumerable<Mission08_Team0203.Models.Task>
+@model IEnumerable<Mission08_Team0203.Models.TaskItem>
 @using System.Linq
 
 @{
     ViewData["Title"] = "Quadrants";
-    var openTasks = Model?.Where(t => !t.Completed).ToList() ?? new List<Mission08_Team0203.Models.Task>();
+    var openTasks = Model?.Where(t => !t.Completed).ToList() ?? new List<Mission08_Team0203.Models.TaskItem>();
 }
 
 <div class="container-fluid">
