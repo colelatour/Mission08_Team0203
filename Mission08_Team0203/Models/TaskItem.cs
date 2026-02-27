@@ -9,7 +9,7 @@ namespace Mission08_Team0203.Models
         public int Id { get; set; }
 
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
         public DateTime DueDate { get; set; }
 

@@ -20,7 +20,7 @@ namespace Mission08_Team0203.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.3");
 
-            modelBuilder.Entity("Mission08_Team0203.Models.Task", b =>
+            modelBuilder.Entity("Mission08_Team0203.Models.TaskItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

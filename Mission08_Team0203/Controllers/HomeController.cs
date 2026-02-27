@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Mission08_Team0203.Models;
@@ -71,7 +70,7 @@ public class HomeController : Controller
     {
         if (!ModelState.IsValid)
         {
-            return View(updatedTask);
+            return View("Add", updatedTask);
         }
 
         var existingTask = _context.Tasks.FirstOrDefault(t => t.Id == updatedTask.Id);

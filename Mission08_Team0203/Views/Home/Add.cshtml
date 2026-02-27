@@ -10,7 +10,7 @@
 
             <h2 class="mb-4">@ViewData["Title"]</h2>
 
-            <form asp-action=@((Model.Id == 0) ? "Add" : "Edit") method="post">
+                <form asp-action="@(Model.Id == 0 ? "Add" : "Edit")" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
                 @* Hidden field for TaskId (needed for Edit) *@
@@ -46,12 +46,12 @@
                 @* Category *@
                 <div class="mb-3">
                     <label asp-for="Category" class="form-label fw-semibold">Category</label>
-                    <select asp-for="Category" asp-items="ViewBag.Categories" class="form-select">
+                    <select asp-for="Category" class="form-select">
                         <option value="">-- Select a Category --</option>
-                        <option value="">Home</option>
-                        <option value="">School</option>
-                        <option value="">Work</option>
-                        <option value="">Church</option>
+                        <option value="Home">Home</option>
+                        <option value="School">School</option>
+                        <option value="Work">Work</option>
+                        <option value="Church">Church</option>
                     </select>
                     <span asp-validation-for="Category" class="text-danger small"></span>
                 </div>

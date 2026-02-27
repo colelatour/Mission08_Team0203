@@ -5,7 +5,7 @@
 namespace Mission08_Team0203.Migrations
 {
     /// <inheritdoc />
-    public partial class taketwo : Migration
+    public partial class TakeTwo : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
