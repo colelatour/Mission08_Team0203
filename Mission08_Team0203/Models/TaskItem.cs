@@ -2,7 +2,7 @@
 
 namespace Mission08_Team0203.Models
 {
-    public class Task
+    public class TaskItem
     {
         [Key]
         [Required]

@@ -32,6 +32,27 @@ public class HomeController : Controller
     }
 
     [HttpGet]
+    public IActionResult Add()
+    {
+        return View("Add", new Mission08_Team0203.Models.TaskItem());
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Add(TaskItem newTask)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(newTask);
+        }
+
+        _context.Tasks.Add(newTask);
+        _context.SaveChanges();
+
+        return RedirectToAction(nameof(Quadrants));
+    }
+
+    [HttpGet]
     public IActionResult Edit(int id)
     {
         var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
@@ -41,12 +62,12 @@ public class HomeController : Controller
             return NotFound();
         }
 
-        return View(task);
+        return View("Add", task);
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Edit(Mission08_Team0203.Models.Task updatedTask)
+    public IActionResult Edit(Mission08_Team0203.Models.TaskItem updatedTask)
     {
         if (!ModelState.IsValid)
         {
